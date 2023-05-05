@@ -232,4 +232,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Custom Ignored Paths
+.help
+
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,windows,dotenv,visualstudiocode,git
