@@ -234,5 +234,6 @@ $RECYCLE.BIN/
 
 # Custom Ignored Paths
 .help
+lib
 
 # End of https://www.toptal.com/developers/gitignore/api/node,macos,windows,dotenv,visualstudiocode,git
