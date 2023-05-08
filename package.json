@@ -46,7 +46,7 @@
         }
     },
     "exports": {
-        "import": "./lib/esm.js",
+        "import": "./lib/index.js",
         "require": "./lib/cjs.js"
     }
 }
