@@ -1,2 +1,11 @@
-export const $ = <T extends Element>(selector: string, ctx = document) => ctx.querySelector<T>(selector);
-export const $$ = <T extends Element>(selector: string, ctx = document) => ctx.querySelectorAll<T>(selector);
+import { encodedSource } from './string';
+
+export const createFrame = () => {
+    const $frame = document.createElement('iframe');
+    
+    const source = encodedSource();
+
+    $frame.setAttribute('src', source);
+
+    return $frame;
+};
