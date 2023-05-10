@@ -1,6 +1,6 @@
 {
     "name": "effective-potato",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "this effective potato wants to be a test npm template for future packages",
     "main": "lib/index.js",
     "types": "./lib/index.d.ts",
@@ -24,9 +24,7 @@
         "url": "https://github.com/henrycontal/effective-potato/issues"
     },
     "homepage": "https://github.com/henrycontal/effective-potato#readme",
-    "dependencies": {
-        
-    },
+    "dependencies": {},
     "devDependencies": {
         "@commitlint/cli": "17.6.3",
         "@commitlint/config-conventional": "17.6.3",
