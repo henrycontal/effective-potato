@@ -17,8 +17,6 @@ jobs:
           node-version: 14
       - run: npm ci
       - run: npm test
-      - run: npm version patch
-      - run: git push origin main
 
   publish-npm:
     needs: build
@@ -31,6 +29,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm run build
+      - run: npm version patch
+      - run: git push origin main
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTOMATION_TOKEN}}
