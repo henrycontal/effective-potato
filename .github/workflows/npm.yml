@@ -29,6 +29,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: | 
           npm ci
+          cd effective-potato
           npm run build
           npm publish
         env:
