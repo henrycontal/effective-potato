@@ -26,11 +26,19 @@ jobs:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
           node-version: 14
           registry-url: https://registry.npmjs.org/
-          
-      - run: | 
+      
+      - name: Configure Git Config
+        run: |
+          git config --global user.email "contrerasenrique973@gmail.com"
+          git config --global user.name "henrycontal"
+      
+      - name: Release package
+        run: |
           npm ci
           npm run build
           npm run release:patch
+          git push --follow-tags origin main
+          npm publish
           
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
