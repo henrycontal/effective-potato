@@ -1,10 +1,12 @@
 export interface Config {
     $: Element;
-    env: string;
+    env?: string;
     client?: string;
+    strategy?: StrategyType;
 }
 
 export interface IMyGreatTestClass {
     config(opts: Config): void;
-    send(): Promise<unknown>
 }
+
+export type StrategyType = 'pop' | 'frame';
