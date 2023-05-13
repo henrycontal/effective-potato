@@ -11,7 +11,8 @@
         "postinstall": "npx husky install",
         "lint": "eslint --ext .ts .",
         "format": "prettier --write \"src/**/*.ts\"",
-        "test": "jest"
+        "test": "jest",
+        "prepublish": "npm version patch && git push origin main"
     },
     "repository": {
         "type": "git",
