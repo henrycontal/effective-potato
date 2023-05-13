@@ -1,6 +1,6 @@
 {
     "name": "effective-potato",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "description": "this effective potato wants to be a test npm template for future packages",
     "main": "lib/index.js",
     "types": "./lib/index.d.ts",
