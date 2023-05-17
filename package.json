@@ -47,6 +47,11 @@
         "ts-jest": "29.1.0",
         "typescript": "5.0.4"
     },
+    "standard-version": {
+        "scripts": {
+            "postchangelog": "sed -E 's#(VIVADOT-[0-9]+)#\\[&\\]\\(https://gruposti.atlassian.net/browse/\\1\\)#g' CHANGELOG.md"
+        }
+    },
     "config": {
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog"
