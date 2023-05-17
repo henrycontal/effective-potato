@@ -1,6 +1,6 @@
 {
     "plugins": ["commitlint-plugin-jira-rules"],
-    "extends": ["jira"],
+    "extends": ["jira", "@commitlint/config-conventional"],
     "rules": {
         "jira-commit-status-case": [0],
         "jira-commit-message-separator": [0],
