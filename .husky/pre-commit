@@ -1,3 +1,0 @@
-#!/bin/sh
-
-echo "im the precommit script" >&2
