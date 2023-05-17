@@ -8,6 +8,7 @@
         "co": "cz",
         "prebuild": "node scripts/encode",
         "build": "node scripts/build",
+        "changelog": "node scripts/post-changelog",
         "postinstall": "npx husky install",
         "lint": "eslint --ext .ts .",
         "format": "prettier --write \"src/**/*.ts\"",
@@ -53,6 +54,11 @@
     "config": {
         "commitizen": {
             "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+        }
+    },
+    "standard-version": {
+        "scripts": {
+            "postchangelog": "npm run changelog"
         }
     },
     "exports": {
