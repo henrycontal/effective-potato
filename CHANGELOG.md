@@ -7,4 +7,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* [VIVADOT-000](https://gruposti.atlassian.net/browse/VIVADOT-000) ([9a11959](https://github.com/henrycontal/effective-potato/commit/9a11959571e700f2fbf7ffbcdb2de96b76024a1d))
+* [[VIVADOT-000](https://gruposti.atlassian.net/browse/VIVADOT-000)](https://gruposti.atlassian.net/browse/[VIVADOT-000](https://gruposti.atlassian.net/browse/VIVADOT-000)) ([9a11959](https://github.com/henrycontal/effective-potato/commit/9a11959571e700f2fbf7ffbcdb2de96b76024a1d))
