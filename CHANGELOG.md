@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/henrycontal/effective-potato/compare/v2.0.0...v3.0.0) (2023-05-17)
+
+
+### Features
+
+* DAZ-123 new feature ([c6eff1a](https://github.com/henrycontal/effective-potato/commit/c6eff1a9739036d2c1f9a1598b008cb5bec22590))
+
 ## [2.0.0](https://github.com/henrycontal/effective-potato/compare/v1.0.1...v2.0.0) (2023-05-17)
 
 
