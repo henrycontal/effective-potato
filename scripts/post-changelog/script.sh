@@ -8,7 +8,4 @@ CHANGELOG_PATH="$PWD/$CHANGELOG_FILE"
 echo "$CHANGELOG_PATH"
 
 # Replace issue numbers with links to the corresponding Jira issue
-sed -i.bak 's#\(VIVADOT-[0-9]\{1,\}\)#\[&\](https://gruposti.atlassian.net/browse/\1)#g' "$CHANGELOG_PATH"
-
-# Remove backup file created by sed
-rm "$CHANGELOG_PATH.bak"
+sed -E -i '' 's/\*\*VIVADOT-([0-9]+):/**[VIVADOT-\1](https:\/\/gruposti.atlassian.net\/browse\/VIVADOT-\1):/' "$CHANGELOG_PATH"
