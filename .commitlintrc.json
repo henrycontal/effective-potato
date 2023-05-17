@@ -1,4 +1,10 @@
 {
     "plugins": ["commitlint-plugin-jira-rules"],
-    "extends": ["jira"]
+    "extends": ["jira"],
+    "rules": {
+        "jira-commit-status-case": [0],
+        "jira-commit-message-separator": [0],
+        "jira-task-id-separator": [0],
+        "jira-task-id-case": [0]
+    }
 }
