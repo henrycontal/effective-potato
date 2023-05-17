@@ -1,11 +1,6 @@
 {
-    "plugins": ["commitlint-plugin-jira-rules"],
-    "extends": ["jira", "@commitlint/config-conventional"],
+    "extends": ["@commitlint/config-conventional"],
     "rules": {
-        "jira-commit-status-case": [0],
-        "jira-commit-message-separator": [0],
-        "jira-task-id-separator": [0],
-        "jira-task-id-case": [0],
-        "subject-case": [1, "always", ["upper-case", "lower-case"]]
+        "scope-case": [2, "always", "upper-case"]
     }
 }

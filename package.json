@@ -1,6 +1,6 @@
 {
     "name": "effective-potato",
-    "version": "9.1.0",
+    "version": "0.0.0",
     "description": "this effective potato wants to be a test npm template for future packages",
     "main": "lib/index.js",
     "types": "./lib/index.d.ts",
@@ -32,12 +32,9 @@
     "devDependencies": {
         "@commitlint/cli": "17.6.3",
         "@commitlint/config-conventional": "17.6.3",
-        "@digitalroute/cz-conventional-changelog-for-jira": "8.0.1",
         "@types/jest": "29.5.1",
         "@typescript-eslint/eslint-plugin": "5.59.2",
         "@typescript-eslint/parser": "5.59.2",
-        "commitlint-config-jira": "1.6.4",
-        "commitlint-plugin-jira-rules": "1.6.4",
         "cz-conventional-changelog": "3.3.0",
         "esbuild": "0.17.18",
         "esbuild-plugin-d.ts": "1.1.0",
@@ -53,12 +50,7 @@
     },
     "config": {
         "commitizen": {
-            "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
-        }
-    },
-    "standard-version": {
-        "scripts": {
-            "postchangelog": "npm run changelog"
+            "path": "cz-conventional-changelog"
         }
     },
     "exports": {
