@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/henrycontal/effective-potato/compare/v1.0.1...v2.0.0) (2023-05-17)
+
+
+### Features
+
+* VIVADOT-5 a new feature ([9505c66](https://github.com/henrycontal/effective-potato/commit/9505c66328c807878330811fa779284bafc8d822))
+
 ### 1.0.1 (2023-05-17)
 
 ## [1.0.0](https://github.com/henrycontal/effective-potato/compare/v0.0.15...v1.0.0) (2023-05-17)
