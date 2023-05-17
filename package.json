@@ -54,6 +54,11 @@
             "disableScopeLowerCase": true
         }
     },
+    "standard-version": {
+        "scripts": {
+            "postchangelog": "npm run changelog"
+        }
+    },
     "exports": {
         "import": "./lib/index.js",
         "require": "./lib/cjs.js"
