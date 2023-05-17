@@ -5,6 +5,7 @@
         "jira-commit-status-case": [0],
         "jira-commit-message-separator": [0],
         "jira-task-id-separator": [0],
-        "jira-task-id-case": [0]
+        "jira-task-id-case": [0],
+        "subject-case": [1, "always", ["upper-case", "lower-case"]]
     }
 }
