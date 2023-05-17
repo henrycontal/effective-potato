@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.15 (2023-05-17)
+
+
+### Features
+
+* **vivadot-2:** this is a feature ([ccacb45](https://github.com/henrycontal/effective-potato/commit/ccacb4526bbd22a7c79ee22a0dd07b1b0d2f9bf4))
+
 ### 0.0.14 (2023-05-17)
 
 
