@@ -1,6 +1,8 @@
 const os = require('os');
 const path = require('path');
 const { exec, spawn } = require('child_process');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const FILE_EXTENSIONS = {
     win32: 'ps1',
@@ -22,20 +24,21 @@ const getAbsolutePath = (ext) => {
 
 /**
  * 
- * @param {string} path 
+ * @param {string} path
+ * @param {...string} args
  * @returns void
  */
-const runScript = (path) => {
+const runScript = (path, args) => {
 
     let process;
 
     if (path.endsWith(FILE_EXTENSIONS['win32'])) {
 
-        process = exec(`powershell -File ${path}`);
+        process = exec(`powershell -File ${path} ${args}`);
 
     } else {
 
-        process = spawn('bash', [path]);
+        process = spawn('bash', [path, args]);
     }
 
     process.on('close', (code) => {
@@ -49,6 +52,7 @@ const runScript = (path) => {
 (function () {
 
     const platform = os.platform();
+    const JIRA_ISSUE_PREFIX = process.env.JIRA_ISSUE_PREFIX;
 
     if (platform === 'win32') {
 
@@ -58,7 +62,7 @@ const runScript = (path) => {
     } else if (platform === 'linux' || platform === 'darwin') {
         
         const path = getAbsolutePath(FILE_EXTENSIONS[platform]);
-        runScript(path);
+        runScript(path, JIRA_ISSUE_PREFIX);
         
     } else {
     

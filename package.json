@@ -28,7 +28,9 @@
         "url": "https://github.com/henrycontal/effective-potato/issues"
     },
     "homepage": "https://github.com/henrycontal/effective-potato#readme",
-    "dependencies": {},
+    "dependencies": {
+        "dotenv": "16.0.3"
+    },
     "devDependencies": {
         "@commitlint/cli": "17.6.3",
         "@commitlint/config-conventional": "17.6.3",
