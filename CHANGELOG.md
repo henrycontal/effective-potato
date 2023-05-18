@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/henrycontal/effective-potato/compare/v1.1.0...v2.0.0) (2023-05-18)
+
+
+### Features
+
+* **[VIVADOT-250](https://gruposti.atlassian.net/browse/VIVADOT-250):** script update ([0d6238f](https://github.com/henrycontal/effective-potato/commit/0d6238f046d1743697fa8cfbb910607dcd655f7c))
+* **VIVADOT-445:** deleted unexpected file ([49f36eb](https://github.com/henrycontal/effective-potato/commit/49f36ebdcf3e470f05815f6fa2b2a9dee232ea00))
+
+
+### Bug Fixes
+
+* **VIVADOT-499:** update scripts ([c039283](https://github.com/henrycontal/effective-potato/commit/c03928380bc7d4d9b34703a07d286043033d9a3f))
+
 ### [1.1.1](https://github.com/henrycontal/effective-potato/compare/v7.0.0...v1.1.1) (2023-05-17)
 
 
